@@ -1,0 +1,11 @@
+name: keras-example
+channels:
+  - defaults
+  - anaconda
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - pip:
+    - mlflow
+    - keras
