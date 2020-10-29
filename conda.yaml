@@ -1,11 +1,13 @@
 name: keras-example
 channels:
-  - defaults
-  - anaconda
   - conda-forge
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - defaults
 dependencies:
-  - python >= 3.6
+  - python 
   - pip
   - pip:
-    - mlflow >=1.6.0
+    - mlflow 
     - keras
