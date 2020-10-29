@@ -4,8 +4,8 @@ channels:
   - anaconda
   - conda-forge
 dependencies:
-  - python 
+  - python >= 3.6
   - pip
   - pip:
-    - mlflow
+    - mlflow >=1.6.0
     - keras
